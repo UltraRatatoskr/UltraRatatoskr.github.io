@@ -1,0 +1,28 @@
+/* Theme */
+
+main {
+	background: #43A047;
+	color: #FAFAFA;
+	animation: animBack 2s ;
+	animation-fill-mode: forwards;
+}
+
+.icons-social a {
+	color: #fafafa00;
+	animation: animIcon 2s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}
+@keyframes animBack {
+	from {background-color: rgb(0, 0, 0);}
+	to {background-color: #43A047;}
+}
+@keyframes animIcon {
+	from {color: rgb(0 0 0 / 0%);}
+	to {color: #FAFAFA;
+		;}
+}
